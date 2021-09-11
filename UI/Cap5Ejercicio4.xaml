@@ -1,0 +1,31 @@
+﻿<Window x:Class="Tarea2.UI.Cap5Ejercicio4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea2.UI"
+        mc:Ignorable="d"
+        Title="Capitulo 5 Ejercicio 4" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" >
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <Label Content="Digite la cantidad de grados a convertir a radianes" Height="30" Width="300"/>
+                <TextBox x:Name="CantidadGradosTextBox" Height="30" Width="60" Margin="-20"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" Margin="10">
+                <Button x:Name="ConvertirButton" Content="Covertir" Height="30" Width="50" Click="ConvertirButton_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content=" Resultado " Height="40" Width="90" />
+                <TextBox x:Name="resultadoTextBox" IsReadOnly="True" Height="30" Width="70" Margin="-20" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" x:Name="PanelPrincipal">
+                
+            </StackPanel>
+
+
+        </StackPanel>
+        
+    </Grid>
+</Window>

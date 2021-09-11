@@ -1,0 +1,28 @@
+﻿<Window x:Class="Tarea2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Capitulo 4">
+                    <MenuItem x:Name="Cap4Ejercicio1Item" Header="Ejercicio 1" Click="Cap4Ejercicio1Item_Click" ></MenuItem>
+                        <MenuItem x:Name="Cap4Ejercicio2Item" Header="Ejercicio 2" Click="Cap4Ejercicio2Item_Click"></MenuItem>
+                        <MenuItem x:Name="Cap4Ejercicio5Item" Header="Ejercicio 5" Click="Cap4Ejercicio5Item_Click"></MenuItem>
+                </MenuItem>
+                
+
+                <MenuItem Header="Capitulo 5">
+                    <MenuItem x:Name="Ejercicio4Item" Header="Ejercicio 4" Click="Ejercicio4Item_Click"  />
+                    <MenuItem x:Name="Ejercicio5Cap5Item" Header="Ejercicio 5" Click="Ejercicio5Cap5Item_Click"> </MenuItem>
+                </MenuItem>
+                
+            </Menu>
+        </StackPanel>
+
+    </Grid>
+</Window>

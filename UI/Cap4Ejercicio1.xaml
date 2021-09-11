@@ -1,0 +1,29 @@
+﻿<Window x:Class="Tarea2.UI.Cap1Ejercicio1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea2.UI"
+        mc:Ignorable="d"
+        Title="Cap 4 Ejercicio 1" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="10" >
+            <Label Content="Tabla Multiplicacion"/>
+            <StackPanel Orientation="Vertical"/>
+            <Label Content=" Digite el numero para multiplicar: "/>
+
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="NumeroTextbox" Height="25" Width="90"/>
+                <Button x:Name="CalcularButton" Content="Calcular" Margin="15" Height="30" Width="60" Click="CalcularButton_Click"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" x:Name="PanelPrincipal">
+                
+                
+            </StackPanel>
+
+
+        </StackPanel>
+    </Grid>
+</Window>

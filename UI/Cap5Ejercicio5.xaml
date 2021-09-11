@@ -1,0 +1,34 @@
+﻿<Window x:Class="Tarea2.UI.Cap5Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tarea2.UI"
+        mc:Ignorable="d"
+        Title="Cap5Ejercicio5" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Digite un numero para escribir el valor en ASCII"/>
+                <StackPanel  Orientation="Horizontal">
+                    <TextBox x:Name="NumeroTextBox" Height="30" Width="70" />
+                </StackPanel>
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Convertir" x:Name="convertirButton" Height="30" Width="70" Margin="20" Click="convertirButton_Click"/>
+               
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Label Content="Resultado" />
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="ResultadoTextBox" Height="30" Width="70"  />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" x:Name="panelPrincipal">
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
